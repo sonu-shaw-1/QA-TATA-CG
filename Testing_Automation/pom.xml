@@ -3,6 +3,10 @@
   <groupId>Testing_Automation</groupId>
   <artifactId>Testing_Automation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+<properties>
+     <maven.compiler.source>1.7</maven.compiler.source>
+     <!--<maven.compiler.target>1.7</maven.compiler.target>-->
+</properties>
 
 <dependencies>
 
@@ -12,7 +16,7 @@
 <groupId>org.testng</groupId>
 <artifactId>testng</artifactId>
 <version>7.6.0</version>
-<scope>test</scope>
+<scope>compile</scope>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->

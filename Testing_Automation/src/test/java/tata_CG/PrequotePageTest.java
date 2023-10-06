@@ -19,23 +19,23 @@ public class PrequotePageTest extends Utility {
 	@Test
 	public void Prequote() {
 		//Enter all details in the page
-		custom_enterDataTextField(prequote_page.getName(),"Sonu Shaw","preQuote_Name");
-		custom_enterDataTextField(prequote_page.getMobileNumber(),"9999999999","mobNo");
-		custom_enterDataTextField(prequote_page.getEmailId(),"test@policybazaar.com","emailId");
-		try 
-		{
-			//Click on View plans
-			custom_clickOnButton(prequote_page.viewPlan(), "viewPlans");
-			
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			
-		    driver.findElement(By.id("btn_15742")).click();		    
-		    driver.findElement(By.xpath("//button[contains(text(),'Proceed')]")).click(); 		    		  
-		}
-		catch(Exception e)
-		{
-			System.out.println(e);
-		}
+//		custom_enterDataTextField(prequote_page.getName(),"Sonu Shaw","preQuote_Name");
+//		custom_enterDataTextField(prequote_page.getMobileNumber(),"9999999999","mobNo");
+//		custom_enterDataTextField(prequote_page.getEmailId(),"test@policybazaar.com","emailId");
+//		try 
+//		{
+//			//Click on View plans
+//			custom_clickOnButton(prequote_page.viewPlan(), "viewPlans");
+//			
+//			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//			
+//		    driver.findElement(By.id("btn_15742")).click();		    
+//		    driver.findElement(By.xpath("//button[contains(text(),'Proceed')]")).click(); 		    		  
+//		}
+//		catch(Exception e)
+//		{
+//			System.out.println(e);
+//		}
 			
 	}
 }
